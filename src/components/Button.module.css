@@ -1,0 +1,66 @@
+.button {
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.1);
+	transition-duration: 0.4s;
+	font-weight: bold;
+	width: inherit;
+}
+
+.fit {
+	padding: 5px 10px;
+	font-size: 15px;
+}
+
+.regular {
+	padding: 1em;
+	font-size: 20px;
+}
+
+.large {
+	padding: 1em 1.5em;
+	font-size: 30px;
+}
+
+.red {
+	background-color: #d64343;
+	border: 2px solid rgba(255, 255, 255, 0);
+	color: white;
+}
+
+.blue {
+	background-color: #0d47a1;
+	border: 2px solid rgba(255, 255, 255, 0);
+	color: white;
+}
+
+.white {
+	background-color: white;
+	border: 2px solid #0d47a1;
+	color: #0d47a1;
+}
+
+.disabled {
+	background-color: grey;
+	border: 2px solid grey;
+	color: black;
+	cursor: not-allowed !important;
+}
+
+.red:hover {
+	background-color: white;
+	border: 2px solid #d64343;
+	color: #d64343;
+}
+
+.blue:hover {
+	background-color: white;
+	color: #0d47a1;
+	border: 2px solid #0d47a1;
+}
+
+.white:hover {
+	background-color: #0d47a1;
+	color: white;
+	border: 2px solid rgba(255, 255, 255, 0);
+}

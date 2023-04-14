@@ -1,0 +1,37 @@
+{
+	"name": "said-alta-project",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"test": "vitest",
+		"coverage": "vitest run --coverage",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@apollo/client": "^3.7.11",
+		"@apollo/react-hooks": "^4.0.0",
+		"@apollo/server": "^4.6.0",
+		"axios": "^1.3.4",
+		"classnames": "^2.3.2",
+		"formik": "^2.2.9",
+		"graphql": "^16.6.0",
+		"jsdom": "^21.1.1",
+		"react": "^18.2.0",
+		"react-bootstrap": "^2.7.2",
+		"react-dom": "^18.2.0",
+		"react-loadingg": "^1.7.2",
+		"react-pro-sidebar": "^1.0.0",
+		"react-router-dom": "^6.9.0",
+		"react-toastify": "^9.1.2",
+		"subscriptions-transport-ws": "^0.11.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.27",
+		"@types/react-dom": "^18.0.10",
+		"@vitejs/plugin-react": "^3.1.0",
+		"vite": "^4.1.0"
+	}
+}

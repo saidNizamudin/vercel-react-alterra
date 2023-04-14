@@ -1,0 +1,28 @@
+.icon {
+	display: flex !important;
+	align-items: center;
+	margin-right: 0.5em;
+}
+
+.error_icon {
+	color: red !important;
+}
+
+.success_icon {
+	color: green !important;
+}
+
+.text_message {
+	font-size: 14px;
+	margin-bottom: 0;
+	display: flex !important;
+	align-items: center;
+}
+
+.success {
+	color: green;
+}
+
+.error {
+	color: red;
+}

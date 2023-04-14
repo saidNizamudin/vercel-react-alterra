@@ -1,0 +1,27 @@
+.desc {
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: normal;
+}
+
+.button_wrapper {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.container {
+	background-color: white;
+	border: 2px solid #ededef;
+	padding: 2em 2em 3em 2em;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 2em;
+}
+
+.title {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}

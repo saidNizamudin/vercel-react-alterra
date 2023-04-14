@@ -1,0 +1,106 @@
+.container {
+	text-align: center;
+	margin: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+}
+
+.point_wrapper {
+	margin-top: 1em;
+	display: flex;
+	flex-direction: column;
+	text-align: flex-start;
+}
+
+.point {
+	background-color: rgb(13, 72, 161);
+	padding: 0.5em;
+	border-radius: 10px;
+	font-size: 15px;
+	color: white;
+	margin-bottom: 0.5em;
+}
+
+img {
+	width: 400px;
+}
+
+.cardImage {
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	position: relative;
+	background-color: white;
+	border: 3px solid #ededef;
+	padding: 2em 2em 1em 2em;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 2em;
+	z-index: 1;
+	width: 80%;
+}
+
+.cardComment {
+	background-color: white;
+	border: 3px solid #ededef;
+	padding: 1em 3em;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 2em;
+	width: 80%;
+	color: #0d48a1;
+}
+
+.button_section {
+	display: flex;
+	margin-bottom: 0.5em;
+}
+
+.button {
+	width: 100%;
+}
+
+.noComment {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	font-size: 2em;
+	width: 100%;
+	text-align: center;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.label {
+	text-align: start;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 100%;
+	font-weight: bold;
+}
+
+.input {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 2em;
+}

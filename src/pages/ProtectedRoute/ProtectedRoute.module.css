@@ -1,0 +1,61 @@
+.sidebar_wrapper {
+	height: 100vh;
+	position: fixed !important;
+	z-index: 100;
+	width: 200px !important;
+	min-width: 200px !important;
+	opacity: 100 !important;
+	overflow: hidden !important;
+}
+
+.sidebar {
+	height: 100vh;
+	padding-top: 2em;
+}
+
+.title {
+	text-transform: uppercase;
+	color: white !important;
+	text-align: center !important;
+	font-size: 30px;
+	background-color: #072a60;
+	margin: 0 15px 25px 15px;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.menu {
+	font-size: 14px;
+	transition-duration: 0.4s;
+	transition: all 0.2s ease-in-out;
+}
+
+.link {
+	color: white;
+}
+
+.link:hover {
+	color: #0d47a1;
+}
+
+.logout {
+	color: #d64343;
+}
+
+.menu > a > span {
+	margin: 0 !important;
+}
+
+.container {
+	display: flex;
+	font-family: 'Poppins';
+}
+
+.container > aside > div {
+	background-color: #0d47a1 !important;
+}
+
+.content {
+	margin-left: 200px;
+	width: 100%;
+}
